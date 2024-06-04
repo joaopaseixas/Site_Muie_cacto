@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+* {
+    margin:0; padding:0;
+}
+
+body
+{
+    display: flex;
+}
+
+#header
+{
+    width: 20%;
+    height:100vh;
+    background-color: black;
+    padding:30px;
+}
+
+#principal
+{
+    width: 80%;
+    height: 100vh;
+    background-image: url(img_9.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#header
+{
+    color: white;
+}
+
+
+#header a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+#header ul
+{
+    list-style: none;
+    text-align:start;
+    font-family: "Quicksand", sans-serif;
+    margin-top: 30px;
+    font-size: 12.8px;
+}
+
+
+#header li
+{
+    padding: 9px 0px;
+    font-size: small;
+}
+
+
+#titulo
+{
+    padding-top: 5px;
+    font-size: 20px;
+    text-align: start;
+    font-family: "Quicksand", sans-serif;
+}
+
+:root
+{
+
+    --rosa:rgb(223,14,98)
+}
+
+#rosa
+{
+    color: var(--rosa);
+}
+
+
+#face svg
+{
+    color: white;
+}
+
+/*/Parte do texto/*/
+
+#welco
+{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 4rem;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+} 
+
+.text
+{
+    text-align: center;
+    color:white;
+    font-size: 1.25rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+
+}
+
+
+#button
+{
+    padding-top: 30%;
+    margin-left: 40%;
+    text-align: center;
+    font-size: 14px;
+    padding: 15px 30px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    border-radius: 30px;
+    color: #fff;
+    background-color: var(--rosa);
+    border-color:var(--rosa);
+}
+
+
+/*/Fotos/*/
+
+#fotos div
+{
+    display:flex
+}
